@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Folio Sans";
+  src: url("app/static/fonts/dm-sans-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 1000;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Folio Serif";
+  src: url("app/static/fonts/instrument-serif-latin-400-normal.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Folio Serif";
+  src: url("app/static/fonts/instrument-serif-latin-400-italic.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Folio Text";
+  src: url("app/static/fonts/stix-two-text-latin-wght-normal.woff2")
+    format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+[data-testid="stAppViewContainer"],
+[data-testid="stApp"] {
+  background: #f8f8f4;
+}
+[data-testid="stHeader"] {
+  background: transparent;
+  height: 0;
+  pointer-events: none;
+}
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"] {
+  visibility: hidden;
+}
+[data-testid="stMainBlockContainer"] {
+  padding: 0 !important;
+  max-width: none !important;
+  width: 100%;
+}
+[data-testid="stVerticalBlock"] {
+  gap: 0;
+}
+[data-testid="stMain"] {
+  scroll-behavior: auto;
+}
+.stApp footer {
+  display: none;
+}
+.folio-root footer {
+  display: flex;
+}

@@ -1,0 +1,9 @@
+.streamlit/secrets.toml
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite*
+.DS_Store
+
+folio-data/

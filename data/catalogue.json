@@ -1,0 +1,503 @@
+[
+  {
+    "id": "attention",
+    "title": "Attention Is All You Need",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Łukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "year": 2017,
+    "venue": "NeurIPS",
+    "topics": [
+      "Machine learning",
+      "Computer science"
+    ],
+    "art": "neural",
+    "description": "The paper that introduced the Transformer and a new way for machines to read language.",
+    "overview": [
+      "When a translator reaches a word with several meanings, another word much earlier in the sentence may settle which one fits. The Transformer lets each position draw information from other positions directly. Its attention heads can learn different relationships in parallel.",
+      "Figure 1 is a map of the model. Follow one sentence through the encoder, then look at how the decoder selects information while producing a translation. The English–German and English–French experiments put that design to the test."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "doi": "10.48550/arXiv.1706.03762",
+    "keywords": [
+      "artificial intelligence",
+      "AI",
+      "transformer",
+      "neural networks",
+      "deep learning",
+      "attention",
+      "natural language processing",
+      "NLP",
+      "language models",
+      "machine translation"
+    ],
+    "arxiv": "1706.03762",
+    "pdfUrl": "https://arxiv.org/pdf/1706.03762",
+    "htmlUrl": "https://arxiv.org/html/1706.03762v7"
+  },
+  {
+    "id": "resnet",
+    "title": "Deep Residual Learning for Image Recognition",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "year": 2016,
+    "venue": "CVPR",
+    "topics": [
+      "Machine learning",
+      "Computer science"
+    ],
+    "art": "neural",
+    "description": "A shortcut through a neural network makes much deeper image classifiers easier to train.",
+    "overview": [
+      "A new layer ought to be able to leave a useful feature alone. ResNet makes that option explicit by adding an earlier representation to the output of a small stack of layers. Those layers can then learn the change they need to make.",
+      "The training-error plots expose the problem that led to the design. Compare networks with and without shortcuts at the same depth before turning to the ImageNet results."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "doi": "10.1109/CVPR.2016.90",
+    "keywords": [
+      "computer vision",
+      "deep learning",
+      "AI",
+      "image classification",
+      "ResNet",
+      "skip connections",
+      "neural networks"
+    ],
+    "arxiv": "1512.03385",
+    "pdfUrl": "https://arxiv.org/pdf/1512.03385",
+    "htmlUrl": "https://arxiv.org/html/1512.03385v1"
+  },
+  {
+    "id": "waves",
+    "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+    "authors": [
+      "LIGO Scientific Collaboration",
+      "Virgo Collaboration"
+    ],
+    "year": 2016,
+    "venue": "Physical Review Letters",
+    "topics": [
+      "Physics"
+    ],
+    "art": "astronomy",
+    "description": "Two distant detectors caught the same brief signal from a pair of merging black holes.",
+    "overview": [
+      "Start with Figure 1. A rising chirp appears in Louisiana and then in Washington a few milliseconds later. Its growing frequency and amplitude follow the pattern expected as two massive objects orbit each other ever faster.",
+      "The paper explains how the teams checked the instruments and their surroundings, tested the event against background noise, and inferred the properties of the merging black holes."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+    "doi": "10.1103/PhysRevLett.116.061102",
+    "keywords": [
+      "astrophysics",
+      "astronomy",
+      "space",
+      "black holes",
+      "general relativity",
+      "gravitational waves",
+      "LIGO",
+      "GW150914",
+      "interferometry"
+    ],
+    "arxiv": "1602.03837",
+    "pdfUrl": "https://arxiv.org/pdf/1602.03837",
+    "localText": true
+  },
+  {
+    "id": "morphogenesis",
+    "title": "The Chemical Basis of Morphogenesis",
+    "authors": [
+      "Alan Mathison Turing"
+    ],
+    "year": 1952,
+    "venue": "Philosophical Transactions of the Royal Society B",
+    "topics": [
+      "Biology",
+      "Mathematics"
+    ],
+    "art": "botany",
+    "description": "Turing asks how a nearly uniform tissue can develop a repeating pattern.",
+    "overview": [
+      "Picture a ring of identical cells with one tiny disturbance. In Turing’s mathematical model, two chemicals react locally and spread between neighbours. Under certain conditions that small disturbance grows into a spatial pattern.",
+      "The ring makes the calculations manageable. Following this simple example is a way into the larger biological question of how an organism acquires its shape."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1098/rstb.1952.0012",
+    "doi": "10.1098/rstb.1952.0012",
+    "keywords": [
+      "mathematical biology",
+      "development",
+      "reaction diffusion",
+      "pattern formation",
+      "developmental biology",
+      "morphogenesis",
+      "Alan Turing"
+    ],
+    "pdfUrl": "https://www.mit.edu/~kardar/teaching/IITS/lectures/lec8/TuringPhilTransB1952.pdf"
+  },
+  {
+    "id": "dijkstra",
+    "title": "A Note on Two Problems in Connexion with Graphs",
+    "authors": [
+      "Edsger W. Dijkstra"
+    ],
+    "year": 1959,
+    "venue": "Numerische Mathematik",
+    "topics": [
+      "Mathematics",
+      "Computer science"
+    ],
+    "art": "maths",
+    "description": "Three pages connect the ideas behind shortest routes and minimum spanning trees.",
+    "overview": [
+      "A network can answer two different questions. Which links connect every node at the lowest total cost? Which route between two chosen nodes has the lowest cost? Dijkstra gives a construction for each.",
+      "Try the second construction on a small weighted map. After each step, mark the vertex whose distance has become final. That distinction between tentative and final distances is what makes the algorithm work."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1007/BF01386390",
+    "doi": "10.1007/BF01386390",
+    "keywords": [
+      "algorithms",
+      "graph theory",
+      "Dijkstra",
+      "shortest path",
+      "minimum spanning tree",
+      "networks",
+      "optimisation",
+      "optimization"
+    ],
+    "pdfUrl": "https://www.cs.cornell.edu/courses/JavaAndDS/shortestPath/1959dijkstra.pdf"
+  },
+  {
+    "id": "species",
+    "title": "How Many Species Are There on Earth and in the Ocean?",
+    "authors": [
+      "Camilo Mora",
+      "Derek P. Tittensor",
+      "Sina Adl",
+      "Alastair G. B. Simpson",
+      "Boris Worm"
+    ],
+    "year": 2011,
+    "venue": "PLOS Biology",
+    "topics": [
+      "Biology",
+      "Mathematics"
+    ],
+    "art": "botany",
+    "description": "The shape of the taxonomic family tree offers a way to count species we have yet to discover.",
+    "overview": [
+      "We have named only a fraction of Earth’s species, so a straight count will miss much of life. Mora and colleagues ask whether the better-described upper levels of classification can reveal the size of the poorly sampled species level.",
+      "Their estimate concerns eukaryotic life. The uncertainty around it matters, especially for groups where the records used to fit the model are sparse."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1371/journal.pbio.1001127",
+    "doi": "10.1371/journal.pbio.1001127",
+    "keywords": [
+      "biodiversity",
+      "evolution",
+      "ecology",
+      "taxonomy",
+      "species richness",
+      "ocean",
+      "statistics",
+      "natural history"
+    ],
+    "pmcid": "PMC3160336",
+    "localText": true
+  },
+  {
+    "id": "augmented-rnns",
+    "title": "Attention and Augmented Recurrent Neural Networks",
+    "authors": [
+      "Chris Olah",
+      "Shan Carter"
+    ],
+    "year": 2016,
+    "venue": "Distill",
+    "topics": [
+      "Machine learning",
+      "Computer science"
+    ],
+    "art": "computing",
+    "description": "How does a neural network learn where to look, what to remember, and when to stop?",
+    "overview": [
+      "This illustrated article appeared the year before the Transformer paper. Olah and Carter use diagrams to follow information through a recurrent network that can select from memory, attend to an input, or spend extra computation on a difficult example.",
+      "The attention section is a natural companion to the Transformer. The original publication includes interactive diagrams that let you explore the mechanics at your own pace."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://distill.pub/2016/augmented-rnns/",
+    "doi": "10.23915/distill.00001",
+    "keywords": [
+      "attention",
+      "neural networks",
+      "recurrent networks",
+      "machine learning",
+      "RNN",
+      "memory",
+      "AI",
+      "deep learning",
+      "interpretability"
+    ],
+    "htmlUrl": "https://distill.pub/2016/augmented-rnns/",
+    "localText": true
+  },
+  {
+    "id": "lorenz",
+    "title": "Deterministic Nonperiodic Flow",
+    "authors": [
+      "Edward N. Lorenz"
+    ],
+    "year": 1963,
+    "venue": "Journal of the Atmospheric Sciences",
+    "topics": [
+      "Physics",
+      "Mathematics"
+    ],
+    "art": "maths",
+    "description": "A stripped-back weather model reveals how almost identical starting points can lead to different futures.",
+    "overview": [
+      "Lorenz follows three quantities in a simplified model of convection. Each step follows a deterministic rule, yet two runs that begin very close together can separate dramatically over time.",
+      "Read the numerical examples with a forecasting question in mind. If instruments can measure an initial state only to a finite precision, what does the model let us predict far into the future?"
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml",
+    "doi": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+    "keywords": [
+      "chaos",
+      "weather",
+      "nonlinear dynamics",
+      "differential equations",
+      "climate",
+      "atmosphere",
+      "Lorenz attractor",
+      "prediction"
+    ],
+    "pdfUrl": "https://wind.mit.edu/~emanuel/Lorenz/EdLorenz/Deterministic_63.pdf"
+  },
+  {
+    "id": "extended-mind",
+    "title": "The Extended Mind",
+    "authors": [
+      "Andy Clark",
+      "David J. Chalmers"
+    ],
+    "year": 1998,
+    "venue": "Analysis",
+    "topics": [
+      "Cognitive science"
+    ],
+    "art": "cognition",
+    "description": "A notebook and a trip to a museum test where a person’s memory ends.",
+    "overview": [
+      "Two people want to visit a museum. One remembers its address. The other reliably consults a notebook. Clark and Chalmers ask what justifies calling only the first operation part of a mind.",
+      "Watch how the conditions around the notebook change the argument. Its availability and the way its owner trusts it matter more than its physical resemblance to anything in the brain."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1093/analys/58.1.7",
+    "doi": "10.1093/analys/58.1.7",
+    "keywords": [
+      "cognition",
+      "psychology",
+      "philosophy of mind",
+      "memory",
+      "extended cognition",
+      "cognitive science"
+    ],
+    "htmlUrl": "https://consc.net/papers/extended.html"
+  },
+  {
+    "id": "diffusion",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Jonathan Ho",
+      "Ajay Jain",
+      "Pieter Abbeel"
+    ],
+    "year": 2020,
+    "venue": "NeurIPS",
+    "topics": [
+      "Machine learning",
+      "Mathematics"
+    ],
+    "art": "neural",
+    "description": "A model learns to make images by reversing a sequence of small steps into noise.",
+    "overview": [
+      "Start with an image and add a little Gaussian noise, over and over. The forward process is easy to specify. The challenge is learning the reverse steps well enough to generate a new image from an initial field of noise.",
+      "The two algorithms in the paper put training and sampling side by side. Keeping them in view makes the derivation easier to follow."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "doi": "10.48550/arXiv.2006.11239",
+    "keywords": [
+      "generative AI",
+      "artificial intelligence",
+      "generative models",
+      "diffusion models",
+      "image generation",
+      "probability",
+      "deep learning",
+      "DDPM"
+    ],
+    "arxiv": "2006.11239",
+    "pdfUrl": "https://arxiv.org/pdf/2006.11239",
+    "htmlUrl": "https://arxiv.org/html/2006.11239v2"
+  },
+  {
+    "id": "protection",
+    "title": "The Protection of Information in Computer Systems",
+    "authors": [
+      "Jerome H. Saltzer",
+      "Michael D. Schroeder"
+    ],
+    "year": 1975,
+    "venue": "Proceedings of the IEEE",
+    "topics": [
+      "Computer science"
+    ],
+    "art": "computing",
+    "description": "The design principles behind least privilege, access checks, and secure defaults.",
+    "overview": [
+      "A program that needs to read a single file should not automatically inherit every permission its user holds. That example captures one of the design principles Saltzer and Schroeder explain in their survey.",
+      "The opening section lays out the principles in plain language. Later sections ask how operating systems can actually enforce them, including the relationship between capabilities and access control lists."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1109/PROC.1975.9939",
+    "doi": "10.1109/PROC.1975.9939",
+    "keywords": [
+      "cybersecurity",
+      "computer security",
+      "information security",
+      "access control",
+      "least privilege",
+      "systems",
+      "permissions"
+    ],
+    "htmlUrl": "https://www.mit.edu/~Saltzer/publications/protection/index.html"
+  },
+  {
+    "id": "research-findings",
+    "title": "Why Most Published Research Findings Are False",
+    "authors": [
+      "John P. A. Ioannidis"
+    ],
+    "year": 2005,
+    "venue": "PLOS Medicine",
+    "topics": [
+      "Mathematics",
+      "Biology"
+    ],
+    "art": "maths",
+    "description": "A probability model asks when a statistically significant result is likely to hold up.",
+    "overview": [
+      "A positive finding means something different in a field with many plausible hypotheses than in one searching through thousands of unlikely associations. Ioannidis models how prior odds, statistical power, and bias affect the trustworthiness of a finding.",
+      "Follow the assumptions in the first table to see how the headline depends on the setting. Try changing the proportion of plausible hypotheses and watching the predicted share of true positives change."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1371/journal.pmed.0020124",
+    "doi": "10.1371/journal.pmed.0020124",
+    "keywords": [
+      "statistics",
+      "probability",
+      "bias",
+      "research methods",
+      "reproducibility",
+      "statistical power",
+      "false positives"
+    ],
+    "pmcid": "PMC1182327",
+    "localText": true
+  },
+  {
+    "id": "memory",
+    "title": "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information",
+    "authors": [
+      "George A. Miller"
+    ],
+    "year": 1956,
+    "venue": "Psychological Review",
+    "topics": [
+      "Cognitive science"
+    ],
+    "art": "cognition",
+    "description": "What changes when we remember a familiar chunk instead of a string of separate items?",
+    "overview": [
+      "Miller brings together experiments on judging stimuli and recalling sequences. A sequence of letters can become easier to hold when the reader recognises a familiar abbreviation inside it.",
+      "The discussion of chunking asks what counts as one item in the first place. It helps explain why the results depend on the task and on what the participant already knows."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1037/h0043158",
+    "doi": "10.1037/h0043158",
+    "keywords": [
+      "psychology",
+      "memory",
+      "information processing",
+      "chunking",
+      "attention",
+      "working memory",
+      "information theory"
+    ],
+    "pdfUrl": "https://stanford.edu/~knutson/jdm/miller56.pdf"
+  },
+  {
+    "id": "git",
+    "title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
+    "authors": [
+      "Yasset Perez-Riverol",
+      "Laurent Gatto",
+      "Rui Wang",
+      "Timo Sachsenberg",
+      "Julian Uszkoreit",
+      "Felipe da Veiga Leprevost",
+      "Christian Fufezan",
+      "Tobias Ternent",
+      "Stephen J. Eglen",
+      "Daniel S. Katz",
+      "Tom J. Pollard",
+      "Alexander Konovalov",
+      "Robert M. Flight",
+      "Kai Blin",
+      "Juan Antonio Vizcaíno"
+    ],
+    "year": 2016,
+    "venue": "PLOS Computational Biology",
+    "topics": [
+      "Computer science",
+      "Biology"
+    ],
+    "art": "computing",
+    "description": "A research team shows how a history of code changes makes scientific work easier to reproduce.",
+    "overview": [
+      "When several people analyse the same dataset, the final figure tells you little about the decisions that led to it. The authors use version control to connect a project’s files, discussions, and revisions.",
+      "The advice moves from saving an individual change through reviewing contributions and citing a particular version. The original examples reflect the GitHub interface and conventions of 2016."
+    ],
+    "overviewLabel": "Editorial notes",
+    "url": "https://doi.org/10.1371/journal.pcbi.1004947",
+    "doi": "10.1371/journal.pcbi.1004947",
+    "keywords": [
+      "software engineering",
+      "Git",
+      "GitHub",
+      "reproducible research",
+      "version control",
+      "open source",
+      "research software",
+      "bioinformatics"
+    ],
+    "pmcid": "PMC4945047",
+    "localText": true
+  }
+]
